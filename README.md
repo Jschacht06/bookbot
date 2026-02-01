@@ -1,6 +1,6 @@
 # Bookbot
 
-Bookbot is a Python-based static analysis tool that processes text files (books) to generate detailed statistics, including word counts and character frequency reports.
+Bookbot is a python tool that reads books in the form of txt files and reports back info like word count and character count
 
 ## Features
 
@@ -45,9 +45,9 @@ a: 26743
 ## Project Structure
 
 - **main.py**: The entry point of the application that handles user input and displays the final report.
-- **stats.py**: Contains the logic for word counting, character frequency analysis, and sorting data.
+- **stats.py**: Contains the logic for word counting and character count.
 - **.gitignore**: Configured to ignore the `books/` directory and Python cache files.
 
 ## Credits
 
-This app was created as part of the backend development curriculum at [Boot.dev](https://boot.dev).
+This app was created as part of [Boot.dev](https://boot.dev).
